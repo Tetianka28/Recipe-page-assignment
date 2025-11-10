@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes My page</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/mypage.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navigation fixed">
+            <div class="menu-container">
+                <ul>
+                  <li>
+                    <a  href="index.html">Home</a>
+                  </li>    
+                  <li>
+                    <a class="clicked" href="">Recipes</a>
+                  </li>    
+                  <li>
+                    <a href="second.html">About</a>
+                  </li>    
+                  <li>
+                    <a href="search.html">Search</a>
+                  </li>    
+                </ul>
+            </div>
+        </nav>
+        <div class="hero_mypage">
+         <header class="hero-container">
+            <div class="hero_header">
+                Today's <span>#TOP</span> picks
+            </div>
+            <div class="hero_recipes">
+                <div class="hero_recipes_card">
+                    <div class="hero_recipes_card_top">
+                        <div class="hero_recipes_card_top_img">
+                            <img src="images/recipecardone.png" alt="meatrecipesimg">
+                        </div>
+                        <div class="hero_recipes_card_top_category">
+                            <p data-category="beef/pork">Beef/Pork</p>
+                            <p>Recipe</p>
+                        </div>
+                    </div>
+                    <div class="hero_recipes_card_bottom">
+                        <h3>Spicy meat'a'bowl</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="hero_recipes_card">
+                    <div class="hero_recipes_card_top">
+                        <div class="hero_recipes_card_top_img">
+                            <img src="images/chickenrecipe.png" alt="chickenrecipe">
+                        </div>
+                        <div class="hero_recipes_card_top_category">
+                            <p data-category="chicken">Chicken</p>
+                            <p>Recipe</p>
+                        </div>
+                    </div>
+                    <div class="hero_recipes_card_bottom">
+                        <h3>Super Yellow Chick</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="hero_recipes_card">
+                    <div class="hero_recipes_card_top">
+                        <div class="hero_recipes_card_top_img">
+                            <img src="images/dessertrecipe.png" alt="dessertrecipe">
+                        </div>
+                        <div class="hero_recipes_card_top_category">
+                            <p data-category="dessert">Dessert</p>
+                            <p>Recipe</p>
+                        </div>
+                    </div>
+                    <div class="hero_recipes_card_bottom">
+                        <h3>yummy Dessert</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="hero_recipes_card">
+                    <div class="hero_recipes_card_top">
+                        <div class="hero_recipes_card_top_img">
+                            <img src="images/pastarecipe.png" alt="pastarecipe">
+                        </div>
+                        <div class="hero_recipes_card_top_category">
+                            <p data-category="pasta">Pasta</p>
+                            <p>Recipe</p>
+                        </div>
+                    </div>
+                    <div class="hero_recipes_card_bottom">
+                        <h3>Zozzona Pasta</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category_selection_line">
+                <div class="category_names">
+                    <h3 class="clicked" >Dishes</h3>
+                    <h3>Drinks</h3>
+                    <h3>Tags</h3>
+                </div>
+                <div class="search-box2">
+                    <input type="search" name="" id="" class="search-input" placeholder="Search...">
+                </div>
+            </div>
+            </header>
+        </div>
+        <div class="recipes_section">
+            <div class="accordion">
+                <div class="accordion_item">
+                    <input type="checkbox" id="meat">
+                    <label for="meat" class="accordion_header">
+                        <span>Meat</span>
+                        <span class="icon">+</span>
+                    </label>
+                    <div class="accordion_content">
+                        <div>
+                            <input type="radio" name="category" id="chick" value="veg">
+                            <label for="chick">Chicken</label>
+                        </div>
+                        <label><input type="radio" name="category" id="veg" value="veg">Pork</label>
+                        <label><input type="radio" name="category" id="veg" value="veg">Beef</label>
+                        <label><input type="radio" name="category" id="veg" value="veg">Lamb</label>
+                        <label><input type="radio" name="category" id="veg" value="veg">Duck</label>
+                    </div>
+                </div>
+                <div class="accordion_item">
+                    <input type="checkbox" id="seafood">
+                    <label for="seafood" class="accordion_header">
+                        <span>Seafood</span>
+                        <span class="icon">+</span>
+                    </label>
+                </div>
+                <div class="accordion_item">
+                    <input type="checkbox" id="soup">
+                    <label for="soup" class="accordion_header">
+                        <span>Soup</span>
+                        <span class="icon">+</span>
+                    </label>
+                </div>
+                <div class="accordion_item">
+                    <input type="checkbox" id="vegeratian">
+                    <label for="vegeratian" class="accordion_header">
+                        <span>Vegeratian</span>
+                        <span class="icon">+</span>
+                    </label>
+                </div>
+                <div class="accordion_item">
+                    <input type="checkbox" id="vegan">
+                    <label for="vegan" class="accordion_header">
+                        <span>Vegan</span>
+                        <span class="icon">+</span>
+                    </label>
+                </div>
+                <div class="accordion_item">
+                    <input type="checkbox" id="misc">
+                    <label for="misc" class="accordion_header">
+                        <span>Snacks</span>
+                        <span class="icon">+</span>
+                    </label>
+                </div>
+                <div class="accordion_item">
+                    <input type="checkbox" id="desserts">
+                    <label for="desserts" class="accordion_header">
+                        <span>Desserts</span>
+                        <span class="icon">+</span>
+                    </label>
+                </div>
+                <div class="accordion_item">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="accordion_header">
+                        <span>Other</span>
+                        <span class="icon">+</span>
+                    </label>
+                </div>
+            </div>
+            <div class="recipes_section_cards">
+                <div class="recipes_section_cards_one">
+                   <div class="recipes_section_cards_one_text">
+                     <h3>Orange chicken</h3>
+                     <p>2 portions <span>30 min.</span></p>
+                   </div>
+                </div>
+                <div class="recipes_section_cards_two">
+                   <div class="recipes_section_cards_one_text">
+                     <h3>Chicken in airfryer</h3>
+                     <p>2 portions <span>15 min.</span></p>
+                   </div>
+                </div>
+                <div class="recipes_section_cards_three">
+                   <div class="recipes_section_cards_one_text">
+                     <h3>Hoisin Chicken</h3>
+                     <p>4 portions <span>50 min.</span></p>
+                   </div>
+                </div>
+                <div class="recipes_section_cards_four">
+                   <div class="recipes_section_cards_one_text">
+                     <h3>Marry me chicken</h3>
+                     <p>2 portions <span>25 min.</span></p>
+                   </div>
+                </div>
+                <div class="recipe_section_cards_show_more">
+                    <img class="arrow_left" src="icons/arrowtoright.svg" alt="arrow">
+                    <button>Show more</button>
+                    <img class="arrow_right" src="icons/arrowtoleft.svg" alt="arrow">
+                </div>
+            </div>
+        </div>
+        <section class="content_area">
+          <div class="content_area_headline">
+            Good to know
+          </div>
+          <div class="content_grid">
+            <div class="block_one">
+              <h4> Kitchen essentials</h4>
+              <h3>15 must-have tools in every kitchen</h3>
+              <button>Read more</button>
+            </div>
+            <div class="block_two">
+              <img src="images/kitchenitems.jpg" alt="kitchenitems">
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="footer_block">
+            <div class="footer_block_left_some">
+              <ul class="footer_block_left_some_links"> 
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.6" d="M22.54 6.42a2.77 2.77 0 0 0-1.945-1.957C18.88 4 12 4 12 4s-6.88 0-8.595.463A2.77 2.77 0 0 0 1.46 6.42C1 8.148 1 11.75 1 11.75s0 3.602.46 5.33a2.77 2.77 0 0 0 1.945 1.958C5.121 19.5 12 19.5 12 19.5s6.88 0 8.595-.462a2.77 2.77 0 0 0 1.945-1.958c.46-1.726.46-5.33.46-5.33s0-3.602-.46-5.33ZM9.75 15.021V8.48l5.75 3.271z"/></svg>
+                  <a href="">Youtube</a>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24"><g fill="none"><path stroke="currentColor" d="M3 11c0-3.771 0-5.657 1.172-6.828S7.229 3 11 3h2c3.771 0 5.657 0 6.828 1.172S21 7.229 21 11v2c0 3.771 0 5.657-1.172 6.828S16.771 21 13 21h-2c-3.771 0-5.657 0-6.828-1.172S3 16.771 3 13z" stroke-width="0.6"/><circle cx="16.5" cy="7.5" r="1.5" fill="currentColor"/><circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="0.6"/></g></svg>
+                  <a href="">Instagram</a>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="0.6" d="M10.478 21.125a9.3 9.3 0 0 0 3.037.002m-3.038-.002A9.25 9.25 0 0 1 2.75 12a9.25 9.25 0 1 1 10.765 9.127m-3.038-.002V16.12H8.58a.6.6 0 0 1-.6-.6v-1.838a.6.6 0 0 1 .6-.6h1.897V9.95a3 3 0 0 1 3-3h1.81a1 1 0 0 1 1 1v1.04a1 1 0 0 1-1 1h-.772a1 1 0 0 0-1 1v2.092h2.297a.6.6 0 0 1 .592.698l-.25 1.504a1 1 0 0 1-.986.836h-1.653v5.007"/></svg>
+                  <a href="">Facebook</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_block_middle">
+              <a href="">Home</a>
+              <a href="">Recipes</a>
+              <a href="">About</a>
+            </div>
+            <div class="footer_block_right">
+              <div class="footer_block_right_links">
+              <a href="https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c">https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c</a>
+              <a href="https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK">https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK</a>
+            </div>
+            <div class="footer_block_right_bottom">
+              <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="0.6"><path d="M2 10c.78-3.816 3.67-6.87 7.406-7.91c.314-.087.47-.131.555-.038c.085.094.022.248-.102.558L9 4.5M14 2c3.816.78 6.87 3.67 7.91 7.406c.087.314.131.47.038.555c-.094.085-.248.022-.558-.102L19.5 9m2.5 5c-.78 3.816-3.67 6.87-7.406 7.91c-.314.087-.47.131-.555.038c-.085-.094-.022-.248.102-.558L15 19.5M10 22c-3.816-.78-6.87-3.67-7.91-7.406c-.087-.314-.131-.47-.038-.555c.094-.085.248-.022.558.102L4.5 15"/><path stroke-linejoin="round" d="m8.613 11.665l3.499-4.492c.274-.351.787-.132.787.336v3.476c0 .28.2.508.449.508h1.702c.386 0 .592.514.337.842l-3.499 4.492c-.274.351-.787.132-.787-.336v-3.476c0-.28-.2-.508-.449-.508H8.95c-.386 0-.593-.514-.337-.842"/></g></svg>
+              <p>Etsy is powered by 100% renewable electricity.</p>
+            </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+</body>
+</html>
